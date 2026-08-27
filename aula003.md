@@ -7,7 +7,7 @@ Renan Homiak Guimarães, RA: 24000668-2
 ## 1. Código gerado:
 
 O objetivo é mostrar como um pequeno trecho de código Java pode ser construído a partir de regras gramaticais da linguagem.
-
+```
 public class ExemploIfElse {
 
     public static void main(String[] args) {
@@ -24,7 +24,7 @@ public class ExemploIfElse {
             
         }
     }}   
-
+```
 
 ## 2. Regras gramaticais utilizadas:
 
