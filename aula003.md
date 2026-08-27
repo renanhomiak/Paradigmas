@@ -23,8 +23,8 @@ public class ExemploIfElse {
             System.out.println("Menor de idade");
             
         }
-    }
-}
+    }}   
+
 
 ## 2. Regras gramaticais utilizadas:
 
