@@ -24,15 +24,25 @@ public class ExemploIfElse {
 Para concentrar a derivação na estrutura condicional, usamos uma gramática reduzida. Os símbolos entre `< >` são não terminais; os demais representam terminais da linguagem.
 
 <if_statement> ::= if ( <condition> ) <statement> else <statement>
+
 <condition> ::= <expression> <relational_operator> <expression>
+
 <relational_operator> ::= >= | > | <= | < | == | !=
+
 <expression> ::= <integer_literal> | <identifier>
+
 <statement> ::= <block>
+
 <block> ::= { <statement_content> }
+
 <statement_content> ::= <print_statement>
+
 <print_statement> ::= System.out.println ( <string_literal> ) ;
+
 <identifier> ::= idade
+
 <integer_literal> ::= 18 | 20
+
 <string_literal> ::= "Maior de idade" | "Menor de idade"
 
 ## 3. Derivação:
