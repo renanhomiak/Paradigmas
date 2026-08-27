@@ -9,12 +9,19 @@ Renan Homiak Guimarães, RA: 24000668-2
 O objetivo é mostrar como um pequeno trecho de código Java pode ser construído a partir de regras gramaticais da linguagem.
 
 public class ExemploIfElse {
+
     public static void main(String[] args) {
+    
         int idade = 20;
+        
         if (idade >= 18) {
+        
             System.out.println("Maior de idade");
+            
         } else {
+        
             System.out.println("Menor de idade");
+            
         }
     }
 }
